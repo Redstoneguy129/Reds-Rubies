@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[31,)"
+
+[[mods]]
+modId = "redsrubies"
+version = "${file.jarVersion}"
+displayName = "Reds Rubies"
+credits = "Thanks to yourfeelingz for the idea and textures!"
+authors = "Redstoneguy129"
+description = '''
+Advanced rubies you can use to spice up your game.
+'''
+
+[[dependencies.redsrubies]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.redsrubies]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
